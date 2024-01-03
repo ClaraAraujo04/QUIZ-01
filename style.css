@@ -1,0 +1,106 @@
+
+/* Estilos CSS permanecem iguais */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-tab,
+  .score-tab {
+    display: block;
+  }
+  
+  .score-tab {
+    display: none;
+  }
+  
+  .navigation-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .correct-answer {
+    color: black;
+  }
+  .navbar {
+      background-color: #3498db;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    #progressBar {
+      list-style-type: none;
+      display: flex;
+    }
+    
+    #progressBar li {
+      margin: 0 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: grey;
+    }
+    
+    #progressBar li.correct {
+      background-color: green;
+    }
+    
+    #progressBar li.wrong {
+      background-color: red;
+    }
+    
+  /* Estilos CSS para as respostas */
+  ul#options {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul#options li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  ul#options li.selected {
+    border-color: #000;
+  }
+  
+  ul#options li.correct-answer {
+    background-color: #8bc34a;
+  }
+  
+  ul#options li.wrong-answer {
+    background-color: #f44336;
+  }
+  
+  
+    
